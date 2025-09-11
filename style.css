@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.faq{
+  padding-top: 60px; 
+  justify-content: inline-block;
+  padding: 0% 50px;
+  font-family: 'Quicksand', sans-serif; 
+  color: #143535; 
+}
+
+.anti-bug{
+  padding-top: 60px;
+  display: flex;
+  justify-content: inline-block;
+  padding: 0% 50px;
+  font-family: 'Quicksand', sans-serif; 
+  color: #143535;  
+}
+
+.logo{
+  padding-top:15px ;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 170px;
+  background-color: #E0703C;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  z-index: 1000;
+}
+
+.fontetexto{
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 80px;
+  padding-top: 70px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.titulo{
+  padding-top: 10%;
+  text-align: center;
+  font-family: 'Nunito', sans-serif ;
+  font-size: 40px;
+  color:#2B2B2B ;
+}
+
+
+
+.titulo1{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif ;
+  font-size: 40px;
+  color:#2B2B2B ;
+}
+
+.div-video{
+  display:flex;
+  justify-content:center;
+}
+
+.ongsfaq{
+  padding-top: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #2B2B2B;
+  font-family: 'Nunito', sans-serif ;
+  font-size: 30px;
+}
+
+.container-texto{
+  margin-bottom: 40px;
+  padding: 0% 60px;
+  color:#4D4032;
+}
+
+.ongspaulista{
+  padding-top: 30px;  
+  padding-bottom: 40px;
+  text-align: center;
+  color:#2B2B2B;
+  font-family: 'Nunito',sans-serif;
+}
+
+body{
+  padding-top: 200px;
+  background-color:#FFF8E7;
+}
+
+.link{
+  text-decoration: none;
+}
+
+
+
+
+
+.texto2 {
+  background-color: #FFD39B;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 220px;
+  margin: 30px auto 0 auto; 
+ margin-left: 15%;
+ margin-right: 15%;
+  text-align: center;
+  color: #2B2B2B;
+  font-family: 'Nunito', sans-serif ;
+  font-size: 25px;     
+}
+
+.contato{
+  font-family: 'Nunito', sans-serif ;
+  display: flex;
+  justify-content: center;
+  margin: 6%;
+}
+
+.icone{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;     
+  background-color: #FFD39B;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 20px;
+  text-align: center;
+}
+
+.texto3{
+  background-color:#FFF8E7;
+  color: #2B2B2B;
+  font-size: 20px;
+  margin-top: 12px; 
+  max-width: 200px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.texto3:hover{
+  text-decoration: underline;
+}
+
+.efeito:hover{
+  width: 250px;
+}
+
+.efeito{
+  transition: 0.5s;
+}
+
+.barra{
+  transition: 0.4s;
+}
+
+.barra:hover{
+  background-color: #FFBE76;
+  border-radius: 20px;
+}
+
+.texto4{
+  background-color: #FFD39B;
+  border-radius: 20px;
+  height: 220px;
+  margin: 70px;
+  padding-top: 40px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #2B2B2B;
+  font-family: 'Nunito', sans-serif ;
+  font-size: 20px;
+  display: block;
+}
+
+.texto-icone{
+  font-family: 'Nunito', sans-serif ;
+  font-size: 20px;
+  color:#2B2B2B ;
+  margin: 10px;
+}
+
+.descricao-icone{
+  font-family: 'Nunito', sans-serif ;
+  font-size: 15px;
+  color:#2B2B2B ;
+}
+
+.icones-conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  margin: 40px 20px;
+}
+
+.icone-item{
+  text-align: center;
+}
+
+.item-anima:hover{
+  background-color:#E0703C;
+  border-radius: 50%;
+}
+
+.container-faq {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+  gap: 2%; 
+  padding: 5% 10%;
+}
+
+.personafaq {
+  width: 20%;
+  display: block;
+  padding-top: 2%;
+}
+
+.accordion-button {
+  background-color: #ffffff;
+  color: #2B2B2B;
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #E0703C;
+  color: #000;
+  box-shadow: none; 
+}
+
+.accordion-item {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+#accordionPerguntas {
+  width: 60%;            
+  margin-left: auto;     
+  margin-right: 5%; 
+  padding-top: 10%;     
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.formulario-contato button{
+  color: #ffffff;
+  background-color: #E0703C;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 20%;
+  height: 40%;
+}
+
+.botao{
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.formulario-contato button:hover{
+  background-color: #a79992;
+}
+
+form{
+  margin: 10%;
+}
+
+.spinner-border {
+  border: 0.15em solid #f3f3f3;
+  border-top: 0.15em solid #ffffff;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.d-none {
+  display: none;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.container-sobre{
+  display: flex;
+  align-items: center;
+}
+
+.sobrelogo{
+  width: 30%;
+}
+
+.historia{
+  font-family: 'Nunito', 'sans-serif';
+  font-size: 25px;
+  padding-right: 20%;
+}
+
+.link1{
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-container{
+  margin-top: 200px ;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.botao-doar {
+  display: inline-block;
+  background-color: #FF6B6B; 
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.botao-doar:hover {
+  background-color: #e05555;
+}
+
+.icone-botao{
+  padding-right: 10px;
+}
+

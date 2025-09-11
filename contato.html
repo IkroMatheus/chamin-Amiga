@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Fale Conosco</title>
+<link rel="stylesheet"  href="style.css">
+
+
+
+</head>
+
+<body>
+
+    <header>
+ <nav> 
+ <ul>
+  <li>
+    <a href="index.html">
+      <img src="imagens/Logomeninasemfundo.png" alt="Logotipo da página com uma chaminé abraçando um garoto" width="190">
+    </a>
+  </li>
+
+  <li>
+    <div class="barra">
+     <a class="link" href="index.html"> 
+       <h2 class="faq">Home</h2>
+     </a>
+    </div>
+  </li>
+
+  <li>
+    <div class="barra">
+      <a class="link" href="sobre.html">
+        <h2 class="faq">Sobre nós</h2>
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div class="barra">
+      <a class="link" href="fazemos.html">
+        <h2 class="faq">O que fazemos</h2>
+      </a>
+    </div>
+  </li>
+
+    <li>
+    <div class="barra">
+      <a class="link" href="f-a-q.html">
+        <h2 class="faq">FAQ</h2>
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div class="barra">
+      <a class="link" href="contato.html">
+        <h2 class="faq">Fale conosco</h2>
+      </a>
+    </div>
+  </li>
+</ul>
+
+</nav> 
+</header>
+
+
+
+<h1 class="titulo1">Número para contato</h1>
+<p class="contato">  (81) 01 0101-0101 </p>
+
+<h1 class="titulo1">E-mail </h1>
+<p class="contato">chamineAmiga@gmail.com </p>
+
+<h1 class="titulo1">Redes Sociais </h1>
+<p class="contato">Instagram: @chamineAmiga  </p>
+
+<h1 class="titulo1">Endereço </h1>
+<p class="contato">Rodovia BR 101 Norte, Km 52,3 S/n - Arthur lundgren2, Paulista - PE, 53417-710, Brazil  </p>
+
+<h3 class="titulo1">Formulário Para Contato:</h3> 
+
+
+<form class="formulario-contato" id="formulario" onsubmit="carregarConteudo(this); return false;">
+  <input type="text" placeholder="Digite seu vulgo." required>
+  <input type="email" placeholder="Informe seu E-mail." required>
+  <textarea placeholder="Sua mensagem aqui." required></textarea>
+
+  <button class="botao" type="submit">
+    <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+    <span class="botao-texto">Enviar comentário</span>
+  </button>
+</form>
+
+<script>
+function carregarConteudo(form) {
+  const botao = form.querySelector("button");
+  const spinner = botao.querySelector(".spinner-border");
+  const texto = botao.querySelector(".botao-texto");
+
+  
+  spinner.classList.remove("d-none");
+  texto.textContent = "Enviando...";
+  botao.disabled = true;
+
+
+  setTimeout(() => {
+    spinner.classList.add("d-none");
+    texto.textContent = "Enviar comentário";
+    botao.disabled = false;
+
+    alert("Comentário enviado com sucesso!");
+    form.reset(); 
+  }, 2000);
+}
+</script>
+
+<footer class="footer">
+  <div class="footer-container">
+    
+      <img class="footer-logo" src="imagens/chaminezinha.png" width="50">
+         <a class="link1" href="#">Ínicio</a>      
+      <p>chaminéAmiga © 2025. Todos os direitos reservados.</p>
+      <p>Paulista-PE</p>  
+    <div>
+
+</footer>
+</body>
+
+</html>
