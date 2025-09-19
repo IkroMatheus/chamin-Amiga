@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Fale Conosco</title>
+<link rel="icon" href="imagens/Logosemfundo.png" type="image/png">
 <link rel="stylesheet"  href="style.css">
 
 
@@ -16,20 +17,20 @@
  <ul>
   <li>
     <a href="index.html">
-      <img src="imagens/Logomeninasemfundo.png" alt="Logotipo da página com uma chaminé abraçando um garoto" width="190">
+      <img class="logo" src="imagens/Logomeninasemfundo.png" alt="Logotipo da página com uma chaminé abraçando um garoto" width="190">
     </a>
   </li>
 
   <li>
-    <div class="barra">
+    <div class="linha-hover">
      <a class="link" href="index.html"> 
-       <h2 class="faq">Home</h2>
+       <h2 class="faq">Ínicio</h2>
      </a>
     </div>
   </li>
 
   <li>
-    <div class="barra">
+    <div class="linha-hover">
       <a class="link" href="sobre.html">
         <h2 class="faq">Sobre nós</h2>
       </a>
@@ -37,7 +38,7 @@
   </li>
 
   <li>
-    <div class="barra">
+    <div class="linha-hover">
       <a class="link" href="fazemos.html">
         <h2 class="faq">O que fazemos</h2>
       </a>
@@ -45,7 +46,7 @@
   </li>
 
     <li>
-    <div class="barra">
+    <div class="linha-hover">
       <a class="link" href="f-a-q.html">
         <h2 class="faq">FAQ</h2>
       </a>
@@ -53,7 +54,7 @@
   </li>
 
   <li>
-    <div class="barra">
+    <div class="linha-hover">
       <a class="link" href="contato.html">
         <h2 class="faq">Fale conosco</h2>
       </a>
@@ -64,25 +65,41 @@
 </nav> 
 </header>
 
+<h1 class="faleconosco"> Fale Conosco</h1>
 
 
-<h1 class="titulo1">Número para contato</h1>
-<p class="contato">  (81) 01 0101-0101 </p>
+<div class="card-contato"> 
+   <h1 class="fale">Número Para Contato</h1>
+   <p class="contato">  (81) 01 0101-0101 </p>
+</div>
 
-<h1 class="titulo1">E-mail </h1>
-<p class="contato">chamineAmiga@gmail.com </p>
+<div class="barra"></div>
 
-<h1 class="titulo1">Redes Sociais </h1>
-<p class="contato">Instagram: @chamineAmiga  </p>
+<div class="card-contato">
+ <h1 class="fale">E-mail </h1>
+ <p class="contato">chamineAmiga@gmail.com </p>
+</div>
 
-<h1 class="titulo1">Endereço </h1>
-<p class="contato">Rodovia BR 101 Norte, Km 52,3 S/n - Arthur lundgren2, Paulista - PE, 53417-710, Brazil  </p>
+<div class="barra"></div>
 
-<h3 class="titulo1">Formulário Para Contato:</h3> 
+<div class="card-contato">
+ <h1 class="fale">Redes Sociais </h1>
+ <p class="contato">Instagram: @chamineAmiga  </p>
+</div>
+
+<div class="barra"></div>
+
+<div class="card-contato">
+ <h1 class="fale">Endereço </h1>
+ <p class="contato">Rodovia BR 101 Norte, Km 52,3 S/n - Arthur lundgren2, Paulista - PE, 53417-710, Brazil  </p>
+</div>
+
+
+<h3 class="titulo">Formulário Para Contato:</h3> 
 
 
 <form class="formulario-contato" id="formulario" onsubmit="carregarConteudo(this); return false;">
-  <input type="text" placeholder="Digite seu vulgo." required>
+  <input type="text" placeholder="Digite seu nome." required>
   <input type="email" placeholder="Informe seu E-mail." required>
   <textarea placeholder="Sua mensagem aqui." required></textarea>
 
