@@ -451,16 +451,7 @@ form{
 /* RESPONSIVIDADE        */
 /* ===================== */
 @media (max-width: 768px) {
-  ul {
-    height: auto;
-    flex-direction: column;
-    padding: 10px 0;
-  }
 
-  .faq {
-    padding-top: 10px;
-    font-size: 18px;
-  }
 
   .ong-card {
     margin-left: 5%;
@@ -486,4 +477,5 @@ form{
     margin-right: 5%;
   }
 }
+
 
