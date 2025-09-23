@@ -12,7 +12,6 @@
   color: #143535; 
 }
 
-
 .logo{
   padding-top:15px ;
 }
@@ -40,7 +39,6 @@ ul {
   font-size: 24px;
   text-align: center;
 }
-
 
 .titulo{
   padding-top: 10%;
@@ -107,29 +105,29 @@ body{
   text-decoration: none;
 }
 
-
+/* ===================== */
+/* ONG CARDS              */
+/* ===================== */
 
 .ong-card{
   background-color: #FFD39B;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  margin: 30px auto 0 auto; 
- margin-left: 15%;
- margin-right: 15%;
+  margin: 30px auto;
   padding: 30px;
   text-align: center;
   font-family: 'Nunito', sans-serif;
   color: #2B2B2B;
+  max-width: 900px;
+  width: 90%;
 }
 
 .texto2 {
-  margin: 30px auto 0 auto; 
-  margin-left: 15%;
-  margin-right: 15%;
+  margin: 30px auto; 
   text-align: center;
   color: #2B2B2B;
   font-family: 'Nunito', sans-serif ;
-  font-size: 29px;     
+  font-size: 25px;     
 }
 
 .contato{
@@ -157,8 +155,6 @@ body{
   display: flex;
   flex-direction: column; 
   align-items: center;     
-  margin-left: 15%;
-  margin-right: 15%;
   padding: 20px;
   text-align: center;
 }
@@ -272,7 +268,6 @@ body{
   padding-top: 2%;
 }
 
-
 .accordion-custom {
   width: 80%;
   margin: 0 auto;
@@ -321,7 +316,6 @@ body{
   padding: 16px;
 }
 
-
 .formulario-contato input,
 .formulario-contato textarea {
   display: block;
@@ -332,7 +326,6 @@ body{
   border: 1px solid #ccc;
   border-radius: 10px;
 }
-
 
 .formulario-contato button{
   color: #ffffff;
@@ -354,8 +347,7 @@ body{
 }
 
 .botao-texto{
-font-size: 20px;
-
+  font-size: 20px;
 }
 
 .formulario-contato button:hover{
@@ -453,5 +445,45 @@ form{
 
 .barra{
   margin: 5%;
+}
+
+/* ===================== */
+/* RESPONSIVIDADE        */
+/* ===================== */
+@media (max-width: 768px) {
+  ul {
+    height: auto;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .faq {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+
+  .ong-card {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    width: 90%;
+  }
+
+  .texto2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
+  }
+
+  .texto3 {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .fontetexto {
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
