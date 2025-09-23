@@ -447,11 +447,8 @@ form{
   margin: 5%;
 }
 
-/* ===================== */
-/* RESPONSIVIDADE        */
-/* ===================== */
-@media (max-width: 768px) {
 
+@media (max-width: 768px) {
 
   .ong-card {
     margin-left: 5%;
@@ -477,5 +474,3 @@ form{
     margin-right: 5%;
   }
 }
-
-
