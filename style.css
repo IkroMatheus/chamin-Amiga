@@ -36,7 +36,7 @@ ul {
   padding-top: 70px;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 24px;
+  font-size: 23px;
   text-align: center;
 }
 
@@ -68,9 +68,22 @@ ul {
   color:#2B2B2B ;
 }
 
-.div-video{
-  display:flex;
-  justify-content:center;
+.card-mapa {
+  width: 600px; 
+  margin: 0 auto; 
+  border-radius: 12px;
+  overflow: hidden; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.header-mapa {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  background-color: #E0703C;
+  font-size: 22px;
+  font-weight: 600;
+  color: #143535; 
+  padding: 10px;
 }
 
 .ongsfaq{
@@ -104,10 +117,6 @@ body{
 .link{
   text-decoration: none;
 }
-
-/* ===================== */
-/* ONG CARDS              */
-/* ===================== */
 
 .ong-card{
   background-color: #FFD39B;
@@ -276,7 +285,6 @@ body{
 }
 
 .accordion-item {
-  border: 2px solid #E0703C;
   border-radius: 12px;
   margin-bottom: 15px;
   overflow: hidden;
@@ -290,7 +298,7 @@ body{
   background: #FFD39B;
   color: #2B2B2B;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
   padding: 16px;
   border: none;
   cursor: pointer;
@@ -307,7 +315,7 @@ body{
   overflow: hidden;
   padding: 0 16px;
   transition: max-height 0.4s ease, padding 0.3s ease;
-  font-size: 18px;
+  font-size: 25px;
   color: #2B2B2B;
 }
 
@@ -387,6 +395,18 @@ form{
   align-items: center;
 }
 
+.container-sobre2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.sobrefoto{
+  width: 30%;
+ 
+}
+
 .sobrelogo{
   width: 30%;
 }
@@ -394,7 +414,7 @@ form{
 .historia{
   font-family: 'Nunito', 'sans-serif';
   font-size: 30px;
-  padding-right: 20%;
+  margin:50px;
 }
 
 .card-contato{
@@ -460,16 +480,16 @@ form{
   .texto2 {
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .texto3 {
-    font-size: 16px;
+    font-size: 17px;
     max-width: 100%;
   }
 
   .fontetexto {
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 5%;
     margin-right: 5%;
   }
